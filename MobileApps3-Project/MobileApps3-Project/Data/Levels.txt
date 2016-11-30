@@ -1,0 +1,21 @@
+﻿[
+{
+	"level" : "Easy", 
+	"items" : 5,
+	"description" : "An easy level for beginers to start out on.",
+	"image" : "/Images/grave.jpg"},
+{
+    "level" : "Medium", 
+	"items" : 7,
+	"description" : "A moderate level for anyone to enjoy.",
+	"image" : "/Images/room.jpg"},
+
+{	
+	"level" : "Hard", 
+	"items" : 10,
+	"description" : "A difficult level for players looking for a challenge.",
+	"image" : "/Images/chaos.jpg"},
+]
+
+
+
