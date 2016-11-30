@@ -34,5 +34,11 @@ namespace MobileApps3_Project.ViewModels
             set { SetProperty(this.image, value, () => this.image = value); }
         }// End of Image
 
+        public String navString
+        {
+            get { return this.navString; }
+            set { SetProperty(this.navString, value, () => this.navString = value); }
+        }// End of Level
+
     }
 }

@@ -46,7 +46,7 @@
               MinWidth="250" Margin="5">
 
                 <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="ViewModels:LevelViewModel" >
+                    <DataTemplate x:DataType="viewModel:LevelViewModel" >
                         <TextBlock Text="{x:Bind level, Mode=OneWay}" />
                     </DataTemplate>
 
@@ -65,6 +65,7 @@
               Text="{x:Bind ViewLevels.SelectedLevel.description, Mode=OneWay, FallbackValue=' '}" 
               Margin="5" />
             <Image Source="{x:Bind ViewLevels.SelectedLevel.image, Mode=OneWay, FallbackValue='0'}" Height="100" Width="100"/>
+            <Button Content="Play" />
         </StackPanel>
 
     </Grid>

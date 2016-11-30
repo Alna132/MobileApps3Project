@@ -29,5 +29,7 @@ namespace MobileApps3_Project
             ViewLevels = new ViewModels.DifficultyViewModel();
         }
         public DifficultyViewModel ViewLevels { get; set; }
+
+        //Create button click event that takes the nav url for the selected level and then navigates to that xaml page.
     }
 }

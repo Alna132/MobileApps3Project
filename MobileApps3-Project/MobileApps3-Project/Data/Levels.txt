@@ -3,18 +3,21 @@
 	"level" : "Easy", 
 	"items" : 5,
 	"description" : "An easy level for beginers to start out on.",
-	"image" : "/Images/grave.jpg"},
+	"image" : "/Images/grave.jpg",
+	"navString" : "/graveLevel.xaml"},
 {
     "level" : "Medium", 
 	"items" : 7,
 	"description" : "A moderate level for anyone to enjoy.",
-	"image" : "/Images/room.jpg"},
+	"image" : "/Images/room.jpg",
+	"navString" : "/roomLevel.xaml"},
 
 {	
 	"level" : "Hard", 
 	"items" : 10,
 	"description" : "A difficult level for players looking for a challenge.",
-	"image" : "/Images/chaos.jpg"},
+	"image" : "/Images/chaos.jpg",
+	"navString" : "/chaosLevel.xaml"},
 ]
 
 
