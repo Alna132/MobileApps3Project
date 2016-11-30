@@ -132,23 +132,29 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
-            _typeNameTable[0] = "MobileApps3_Project.Converters.ObjectExistsToVisible";
-            _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "MobileApps3_Project.MainPage";
-            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[5] = "MobileApps3_Project.ViewModels.DifficultyViewModel";
-            _typeNameTable[6] = "MobileApps3_Project.ViewModels.NotificationBase";
+            _typeNameTable = new string[10];
+            _typeNameTable[0] = "MobileApps3_Project.ChaosLevel";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "MobileApps3_Project.graveLevel";
+            _typeNameTable[4] = "MobileApps3_Project.Converters.ObjectExistsToVisible";
+            _typeNameTable[5] = "Object";
+            _typeNameTable[6] = "MobileApps3_Project.MainPage";
+            _typeNameTable[7] = "MobileApps3_Project.ViewModels.DifficultyViewModel";
+            _typeNameTable[8] = "MobileApps3_Project.ViewModels.NotificationBase";
+            _typeNameTable[9] = "MobileApps3_Project.roomLevel";
 
-            _typeTable = new global::System.Type[7];
-            _typeTable[0] = typeof(global::MobileApps3_Project.Converters.ObjectExistsToVisible);
-            _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::MobileApps3_Project.MainPage);
-            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[5] = typeof(global::MobileApps3_Project.ViewModels.DifficultyViewModel);
-            _typeTable[6] = typeof(global::MobileApps3_Project.ViewModels.NotificationBase);
+            _typeTable = new global::System.Type[10];
+            _typeTable[0] = typeof(global::MobileApps3_Project.ChaosLevel);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::MobileApps3_Project.graveLevel);
+            _typeTable[4] = typeof(global::MobileApps3_Project.Converters.ObjectExistsToVisible);
+            _typeTable[5] = typeof(global::System.Object);
+            _typeTable[6] = typeof(global::MobileApps3_Project.MainPage);
+            _typeTable[7] = typeof(global::MobileApps3_Project.ViewModels.DifficultyViewModel);
+            _typeTable[8] = typeof(global::MobileApps3_Project.ViewModels.NotificationBase);
+            _typeTable[9] = typeof(global::MobileApps3_Project.roomLevel);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -183,10 +189,13 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ObjectExistsToVisible() { return new global::MobileApps3_Project.Converters.ObjectExistsToVisible(); }
-        private object Activate_2_MainPage() { return new global::MobileApps3_Project.MainPage(); }
-        private object Activate_5_DifficultyViewModel() { return new global::MobileApps3_Project.ViewModels.DifficultyViewModel(); }
-        private object Activate_6_NotificationBase() { return new global::MobileApps3_Project.ViewModels.NotificationBase(); }
+        private object Activate_0_ChaosLevel() { return new global::MobileApps3_Project.ChaosLevel(); }
+        private object Activate_3_graveLevel() { return new global::MobileApps3_Project.graveLevel(); }
+        private object Activate_4_ObjectExistsToVisible() { return new global::MobileApps3_Project.Converters.ObjectExistsToVisible(); }
+        private object Activate_6_MainPage() { return new global::MobileApps3_Project.MainPage(); }
+        private object Activate_7_DifficultyViewModel() { return new global::MobileApps3_Project.ViewModels.DifficultyViewModel(); }
+        private object Activate_8_NotificationBase() { return new global::MobileApps3_Project.ViewModels.NotificationBase(); }
+        private object Activate_9_roomLevel() { return new global::MobileApps3_Project.roomLevel(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -198,43 +207,64 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  MobileApps3_Project.Converters.ObjectExistsToVisible
-                userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_ObjectExistsToVisible;
+            case 0:   //  MobileApps3_Project.ChaosLevel
+                userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_ChaosLevel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Object
+            case 1:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  MobileApps3_Project.MainPage
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  MobileApps3_Project.graveLevel
                 userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_MainPage;
+                userType.Activator = Activate_3_graveLevel;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  MobileApps3_Project.Converters.ObjectExistsToVisible
+                userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_4_ObjectExistsToVisible;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  Object
+                xamlType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  MobileApps3_Project.MainPage
+                userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MainPage;
                 userType.AddMemberName("ViewLevels");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 3:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 4:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 5:   //  MobileApps3_Project.ViewModels.DifficultyViewModel
+            case 7:   //  MobileApps3_Project.ViewModels.DifficultyViewModel
                 userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MobileApps3_Project.ViewModels.NotificationBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  MobileApps3_Project.ViewModels.NotificationBase
+            case 8:   //  MobileApps3_Project.ViewModels.NotificationBase
                 userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_6_NotificationBase;
+                userType.Activator = Activate_8_NotificationBase;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  MobileApps3_Project.roomLevel
+                userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_roomLevel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
