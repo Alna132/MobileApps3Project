@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobileApps3_Project.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace MobileApps3_Project
         public MainPage()
         {
             this.InitializeComponent();
+            ViewLevels = new ViewModels.DifficultyViewModel();
         }
+        public DifficultyViewModel ViewLevels { get; set; }
     }
 }

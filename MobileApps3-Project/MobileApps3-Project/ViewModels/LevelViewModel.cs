@@ -7,9 +7,9 @@ using MobileApps3_Project.Data;
 
 namespace MobileApps3_Project.ViewModels
 {
-    class LevelViewModel
+    public class LevelViewModel : NotificationBase<Data.Levels>
     {
-        public LevelViewModel(Levels difficulty = null) : base(difficulty) { }
+        public LevelViewModel(Data.Levels difficulty = null) : base(difficulty) { }
         public String level
         {
             get { return this.level; }

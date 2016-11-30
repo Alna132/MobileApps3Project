@@ -1,6 +1,6 @@
 ﻿namespace MobileApps3_Project.Data
 {
-    class Levels
+    public class Levels
     {
         public string level { get; set; }
         public int items { get; set; }

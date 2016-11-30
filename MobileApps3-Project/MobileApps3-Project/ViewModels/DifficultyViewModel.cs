@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 
 namespace MobileApps3_Project.ViewModels
 {
-    class DifficultyViewModel
+    public class DifficultyViewModel : NotificationBase
     {
         Models.theLevels Difficulty;
 
