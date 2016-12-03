@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="MobileApps3_Project.graveLevel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileApps3_Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="/Images/grave.jpg" />
+            <StackPanel Orientation="Vertical">
+                <!-- 5 items to find -->
+                <TextBlock Text="To find:" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Hat" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Teddy" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Eggplant" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Cherry" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Lamp" Foreground="White" TextAlignment="Center" />
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Page>
+
