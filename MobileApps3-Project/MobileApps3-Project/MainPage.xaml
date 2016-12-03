@@ -57,15 +57,18 @@
         <StackPanel x:Name="InfoPanel" Grid.Column="2" Orientation="Vertical" Visibility="{x:Bind ViewLevels.SelectedLevel, Mode=OneWay, Converter={StaticResource ObjectExistsToVisible}}" >
             <TextBox 
               Text="{x:Bind ViewLevels.SelectedLevel.level, Mode=OneWay, FallbackValue=''}" 
-              Margin="5" />
+              Margin="5" IsReadOnly="True" />
             <TextBox 
               Text="{x:Bind ViewLevels.SelectedLevel.items, Mode=OneWay, FallbackValue=' '}" 
-              Margin="5" />
+              Margin="5" IsReadOnly="True" />
             <TextBox 
               Text="{x:Bind ViewLevels.SelectedLevel.description, Mode=OneWay, FallbackValue=' '}" 
-              Margin="5" />
+              Margin="5" IsReadOnly="True" />
             <Image Source="{x:Bind ViewLevels.SelectedLevel.image, Mode=OneWay, FallbackValue='0'}" Height="100" Width="100"/>
-            <Button Content="Play" />
+            <TextBox x:Name="navStringText"
+              Text="{x:Bind ViewLevels.SelectedLevel.level, Mode=OneWay, FallbackValue=''}" 
+              Margin="5" IsReadOnly="True" Visibility="Collapsed" />
+            <Button Content="Play" Click="Button_Click" />
         </StackPanel>
 
     </Grid>

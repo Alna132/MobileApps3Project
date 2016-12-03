@@ -133,7 +133,7 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[10];
-            _typeNameTable[0] = "MobileApps3_Project.chaosLevel";
+            _typeNameTable[0] = "MobileApps3_Project.ChaosLevel";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "MobileApps3_Project.graveLevel";
@@ -145,7 +145,7 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
             _typeNameTable[9] = "MobileApps3_Project.roomLevel";
 
             _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::MobileApps3_Project.chaosLevel);
+            _typeTable[0] = typeof(global::MobileApps3_Project.ChaosLevel);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::MobileApps3_Project.graveLevel);
@@ -189,7 +189,7 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_chaosLevel() { return new global::MobileApps3_Project.chaosLevel(); }
+        private object Activate_0_ChaosLevel() { return new global::MobileApps3_Project.ChaosLevel(); }
         private object Activate_3_graveLevel() { return new global::MobileApps3_Project.graveLevel(); }
         private object Activate_4_ObjectExistsToVisible() { return new global::MobileApps3_Project.Converters.ObjectExistsToVisible(); }
         private object Activate_6_MainPage() { return new global::MobileApps3_Project.MainPage(); }
@@ -207,9 +207,9 @@ namespace MobileApps3_Project.MobileApps3_Project_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  MobileApps3_Project.chaosLevel
+            case 0:   //  MobileApps3_Project.ChaosLevel
                 userType = new global::MobileApps3_Project.MobileApps3_Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_chaosLevel;
+                userType.Activator = Activate_0_ChaosLevel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

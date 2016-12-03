@@ -7,7 +7,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="Black">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="/Images/room.jpg" />
+            <StackPanel Orientation="Vertical">
+                <!-- 7 items to find -->
+                <TextBlock Text="To find:" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Chess" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Bellows" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Fan" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Bone" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Spoon" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Tack" Foreground="White" TextAlignment="Center" />
+                <TextBlock Text="Lighter" Foreground="White" TextAlignment="Center" />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

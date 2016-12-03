@@ -95,8 +95,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ChaosLevel.xaml.cs">
-      <DependentUpon>ChaosLevel.xaml</DependentUpon>
+    <Compile Include="chaosLevel.xaml.cs">
+      <DependentUpon>chaosLevel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converters\ObjectExistsToVisible.cs" />
     <Compile Include="Data\Levels.cs" />
@@ -140,7 +140,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ChaosLevel.xaml">
+    <Page Include="chaosLevel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -20,9 +20,9 @@ namespace MobileApps3_Project
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ChaosLevel : Page
+    public sealed partial class chaosLevel : Page
     {
-        public ChaosLevel()
+        public chaosLevel()
         {
             this.InitializeComponent();
         }
