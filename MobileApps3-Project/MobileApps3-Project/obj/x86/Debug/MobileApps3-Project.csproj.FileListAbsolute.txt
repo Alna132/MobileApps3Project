@@ -9,29 +9,6 @@ E:\Mobile Apps 3\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.
 E:\Mobile Apps 3\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.xbf
 E:\Mobile Apps 3\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.xbf
 E:\Mobile Apps 3\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\XamlSaveStateFile.xml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MobileApps3-Project.csprojResolveAssemblyReference.cache
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.g.i.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.g.i.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.g.i.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.g.i.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.g.i.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\XamlTypeInfo.g.cs
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.xaml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.xaml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.xaml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.xaml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.xaml
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.xbf
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.xbf
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.xbf
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.xbf
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.xbf
-G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\XamlSaveStateFile.xml
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\App.xbf
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\chaosLevel.xbf
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\graveLevel.xbf
@@ -148,6 +125,28 @@ G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\Mobile
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\System.Xml.XDocument.dll
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\System.Xml.XmlDocument.dll
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\System.Xml.XmlSerializer.dll
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.g.i.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.g.i.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.g.i.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.g.i.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.g.i.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\XamlTypeInfo.g.cs
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.xaml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.xaml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.xaml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.xaml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.xaml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\App.xbf
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\chaosLevel.xbf
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\graveLevel.xbf
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MainPage.xbf
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\roomLevel.xbf
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\XamlSaveStateFile.xml
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MobileApps3-Project.exe
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MobileApps3-Project.pdb
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\ResourceHandlingTask.state
@@ -216,3 +215,4 @@ G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\Mobile
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\qualifiers.txt.intermediate
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\ProjectArchitectures.txt
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\MobileApps3-Project.csprojResolveAssemblyReference.cache

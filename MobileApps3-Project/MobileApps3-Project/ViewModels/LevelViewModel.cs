@@ -40,5 +40,5 @@ namespace MobileApps3_Project.ViewModels
             set { SetProperty(this.navString, value, () => this.navString = value); }
         }// End of Level
 
-    }
-}
+    }//- End of LevelViewModel
+}//- End of MobileApps3_Project.ViewModels

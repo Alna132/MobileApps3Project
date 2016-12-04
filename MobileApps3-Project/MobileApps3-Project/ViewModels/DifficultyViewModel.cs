@@ -20,38 +20,32 @@ namespace MobileApps3_Project.ViewModels
             {
                 var np = new LevelViewModel(level);
                 _level.Add(np);
-            }
-        }
+            }//- End of Foreach
+        }//- End of DifficultyViewModel
 
 
         ObservableCollection<LevelViewModel> _level = new ObservableCollection<LevelViewModel>();
 
         public ObservableCollection<LevelViewModel> Level
         {
-            get { return _level; }
-            set { SetProperty(ref _level, value); }
-        }
-
-        //String _Name;
-        //public String Name
-        //{
-        //    get { return Difficulty.BreedName; }
-        //}
+            get { return _level; }//- End of get
+            set { SetProperty(ref _level, value); }//- End of set
+        }//- End of Level
 
         int _SelectedIndex;
         public int SelectedIndex
         {
-            get { return _SelectedIndex; }
+            get { return _SelectedIndex; }//- End of get
             set
             {
                 if (SetProperty(ref _SelectedIndex, value))
-                { RaisePropertyChanged(nameof(SelectedLevel)); }
-            }
-        }
+                { RaisePropertyChanged(nameof(SelectedLevel)); }//- End of if
+            }//- End of set
+        }//- End of SelectedIndex
 
         public LevelViewModel SelectedLevel
         {
-            get { return (_SelectedIndex >= 0) ? _level[_SelectedIndex] : null; }
-        }
-    }
-}
+            get { return (_SelectedIndex >= 0) ? _level[_SelectedIndex] : null; }//- End of get
+        }//- End of SelectedLevel
+    }//- End of DifficultyViewModel
+}//- End of MobileApps3_Project.ViewModels

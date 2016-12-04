@@ -17,7 +17,7 @@ namespace MobileApps3_Project.ViewModels
             field = value;
             RaisePropertyChanged(property);
             return true;
-        }
+        }//- End of SetProperty
 
         // SetField(()=> somewhere.Name = value; somewhere.Name, value) 
         // Advanced case where you rely on another property
@@ -28,15 +28,15 @@ namespace MobileApps3_Project.ViewModels
             DoSet.Invoke();
             RaisePropertyChanged(property);
             return true;
-        }
+        }//- End of SetProperty
 
         protected void RaisePropertyChanged(string property)
         {
             if (PropertyChanged != null)
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(property));
-            }
-        }
+            }//- End of if
+        }//- End of RaisePropertyChanged
     }//- End of NotificationBase
 
     public class NotificationBase<T> : NotificationBase where T : class, new()
@@ -48,6 +48,6 @@ namespace MobileApps3_Project.ViewModels
         public NotificationBase(T thing = null)
         {
             This = (thing == null) ? new T() : thing;
-        }
+        }//- End of NotifcationBase
     }//- End of NotificationBase<T>
 }//- End of MobileApps3_Project.ViewModels
