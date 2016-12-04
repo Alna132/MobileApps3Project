@@ -227,3 +227,4 @@ G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\Mobile
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x64\Debug\roomLevel.xbf
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x64\Debug\graveLevel.xbf
 G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x64\Debug\XamlSaveStateFile.xml
+G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x64\Debug\MobileApps3-Project.csprojResolveAssemblyReference.cache
