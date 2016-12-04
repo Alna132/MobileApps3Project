@@ -13,6 +13,7 @@ namespace MobileApps3_Project
 
         }//- End of chaosLevel
 
+        //- This overiden method makes sure that all the buttons and the item list is visible when the page opens.
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             btnRat.Visibility = Visibility.Visible;
@@ -37,6 +38,10 @@ namespace MobileApps3_Project
             txtMantis.Visibility = Visibility.Visible;
         }//- End of OnNavigatedTo
 
+        //- Each button when clicked collapses the visibility of their associated textbox and themselves.
+        //- Then an if statement checks whether all the textboxes have been collaped.
+        //- If they are then a dialog box is displayed and then the back button is pressed,
+        //- the user is navigated back to the MainPage.
         private void btnRat_Click(object sender, RoutedEventArgs e)
         {
             btnRat.Visibility = Visibility.Collapsed;
@@ -207,6 +212,7 @@ namespace MobileApps3_Project
             }//- End of if
         }//- End of btnMantis_Click
 
+        //- This handler handles the command for the dialogue box's back button
         private void CommandInvokedHandler(IUICommand command)
         {
             Frame.Navigate(typeof(MainPage));
