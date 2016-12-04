@@ -21,10 +21,10 @@
                 <TextBlock x:Name="txtLamp" Text="Lamp" Foreground="White" TextAlignment="Center" Visibility="Visible" />
             </StackPanel>
         </StackPanel>
-        <Button x:Name="btnHat" Background="Azure" Margin="198,185,0,129" Height="46" Width="27" Click="btnHat_Click" Visibility="Visible" />
-        <Button x:Name="btnTeddy" Background="Black" Margin="395,214,0,101" Height="45" Width="30" Click="btnTeddy_Click" Visibility="Visible" />
-        <Button x:Name="btnEggplant" Background="Brown" Margin="529,145,0,174" Height="41" Width="32" Click="btnEggplant_Click" Visibility="Visible" />
-        <Button x:Name="btnCherry" Background="White" Margin="277,35,0,302" Height="23" Width="23" Click="btnCherry_Click" Visibility="Visible" />
-        <Button x:Name="btnLamp" Background="Green" Margin="479,266,0,57" Height="37" Width="54" Click="btnLamp_Click" Visibility="Visible" />
+        <Button x:Name="btnHat" Background="Transparent" Margin="198,185,0,129" Height="46" Width="27" Click="btnHat_Click" Visibility="Visible" />
+        <Button x:Name="btnTeddy" Background="Transparent" Margin="395,214,0,101" Height="45" Width="30" Click="btnTeddy_Click" Visibility="Visible" />
+        <Button x:Name="btnEggplant" Background="Transparent" Margin="529,145,0,174" Height="41" Width="32" Click="btnEggplant_Click" Visibility="Visible" />
+        <Button x:Name="btnCherry" Background="Transparent" Margin="277,35,0,302" Height="23" Width="23" Click="btnCherry_Click" Visibility="Visible" />
+        <Button x:Name="btnLamp" Background="Transparent" Margin="479,266,0,57" Height="37" Width="54" Click="btnLamp_Click" Visibility="Visible" />
     </Grid>
 </Page>

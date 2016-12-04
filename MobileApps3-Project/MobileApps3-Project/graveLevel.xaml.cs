@@ -112,6 +112,7 @@ namespace MobileApps3_Project
 
         }//- End of btnLamp_Click
 
+        //- This handler handles the command for the dialogue box's back button
         private void CommandInvokedHandler(IUICommand command)
         {
             Frame.Navigate(typeof(MainPage));

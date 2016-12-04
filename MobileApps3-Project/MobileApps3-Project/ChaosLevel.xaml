@@ -25,17 +25,17 @@
                 <TextBlock x:Name="txtMantis" Text="Mantis" Foreground="White" TextAlignment="Center" Visibility="Visible" />
             </StackPanel>
         </StackPanel>
-        
-        <Button x:Name="btnRat" Background="White" Margin="167,288,0,39" Height="33" Width="39" Click="btnRat_Click" Visibility="Visible" />
-        <Button x:Name="btnBaseball" Background="White" Margin="0,335,0,0" Height="25" Width="33" Click="btnBaseball_Click" Visibility="Visible" />
-        <Button x:Name="btnDice" Background="White" Margin="322,345,0,0" Height="15" Width="47" Click="btnDice_Click" Visibility="Visible" />
-        <Button x:Name="btnSpider" Background="White" Margin="509,151,0,176" Height="33" Width="37" Click="btnSpider_Click" Visibility="Visible" />
-        <Button x:Name="btnRadio" Background="White" Margin="69,214,0,115" Height="31" Width="44" Click="btnRadio_Click" Visibility="Visible" />
-        <Button x:Name="btnLock" Background="White" Margin="162,120,0,210" Height="30" Width="20" Click="btnLock_Click" Visibility="Visible" />
-        <Button x:Name="btnUmbrella" Background="White" Margin="251,169,0,134" Height="57" Click="btnUmbrella_Click" Visibility="Visible" />
-        <Button x:Name="btnBike" Background="White" Margin="162,169,0,115" Height="76" Width="44" Click="btnBike_Click" Visibility="Visible" />
-        <Button x:Name="btnCandles" Background="White" Margin="366,169,0,176" Width="39" Height="15" Click="btnCandles_Click" Visibility="Visible" />
-        <Button x:Name="btnMantis" Background="White" Margin="493,31,0,274" Height="55" Width="33" Click="btnMantis_Click" Visibility="Visible" />
+
+        <Button x:Name="btnRat" Background="Transparent" Margin="167,288,0,39" Height="33" Width="39" Click="btnRat_Click" Visibility="Visible" />
+        <Button x:Name="btnBaseball" Background="Transparent" Margin="0,335,0,0" Height="25" Width="33" Click="btnBaseball_Click" Visibility="Visible" />
+        <Button x:Name="btnDice" Background="Transparent" Margin="322,345,0,0" Height="15" Width="47" Click="btnDice_Click" Visibility="Visible" />
+        <Button x:Name="btnSpider" Background="Transparent" Margin="509,151,0,176" Height="33" Width="37" Click="btnSpider_Click" Visibility="Visible" />
+        <Button x:Name="btnRadio" Background="Transparent" Margin="69,214,0,115" Height="31" Width="44" Click="btnRadio_Click" Visibility="Visible" />
+        <Button x:Name="btnLock" Background="Transparent" Margin="162,120,0,210" Height="30" Width="20" Click="btnLock_Click" Visibility="Visible" />
+        <Button x:Name="btnUmbrella" Background="Transparent" Margin="251,169,0,134" Height="57" Click="btnUmbrella_Click" Visibility="Visible" />
+        <Button x:Name="btnBike" Background="Transparent" Margin="162,169,0,115" Height="76" Width="44" Click="btnBike_Click" Visibility="Visible" />
+        <Button x:Name="btnCandles" Background="Transparent" Margin="366,169,0,176" Width="39" Height="15" Click="btnCandles_Click" Visibility="Visible" />
+        <Button x:Name="btnMantis" Background="Transparent" Margin="493,31,0,274" Height="55" Width="33" Click="btnMantis_Click" Visibility="Visible" />
     
     </Grid>
 </Page>
