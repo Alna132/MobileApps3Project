@@ -31,8 +31,8 @@ A timer could be implemented to time a users run through a level.
 Login capabilities could be incorporated to allow users to save their scores.
 
 # References:
-(Dialogue Boxes)[https://msdn.microsoft.com/library/windows/apps/br208674]
-(Tapped Location Co-Ordinates)[http://stackoverflow.com/questions/13674162/setting-position-of-a-uielement-for-a-windows-8-xaml-app]
-(CS1056  C# Unexpected ' character Compiler Error)[https://msdn.microsoft.com/en-us/library/59k0x971.aspx]
-(MVVM Tutorial from moodle)[https://learnonline.gmit.ie/pluginfile.php/177769/mod_resource/content/0/LAB2b-Problems.pdf]
-(Add authentication to your Windows app)[https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-windows-store-dotnet-get-started-users]
+[Dialogue Boxes](https://msdn.microsoft.com/library/windows/apps/br208674)
+[Tapped Location Co-Ordinates](http://stackoverflow.com/questions/13674162/setting-position-of-a-uielement-for-a-windows-8-xaml-app)
+[CS1056  C# Unexpected ' character Compiler Error](https://msdn.microsoft.com/en-us/library/59k0x971.aspx)
+[MVVM Tutorial from moodle](https://learnonline.gmit.ie/pluginfile.php/177769/mod_resource/content/0/LAB2b-Problems.pdf)
+[Add authentication to your Windows app](https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-windows-store-dotnet-get-started-users)
