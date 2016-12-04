@@ -1,6 +1,7 @@
 ﻿using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -18,13 +19,19 @@ namespace MobileApps3_Project
 
         }//- End of graveLevel
 
-        //private void Image_Tapped(object sender, TappedRoutedEventArgs e)
-        //{
-        //    Point tappedPoint = e.GetPosition(graveScene);
-
-        //    //if (tappedPoint.X == )
-
-        //}
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            btnHat.Visibility = Visibility.Visible;
+            txtHat.Visibility = Visibility.Visible;
+            btnTeddy.Visibility = Visibility.Visible;
+            txtTeddy.Visibility = Visibility.Visible;
+            btnEggplant.Visibility = Visibility.Visible;
+            txtEggplant.Visibility = Visibility.Visible;
+            btnCherry.Visibility = Visibility.Visible;
+            txtCherry.Visibility = Visibility.Visible;
+            btnLamp.Visibility = Visibility.Visible;
+            txtLamp.Visibility = Visibility.Visible;
+        }//- End of OnNavigatedTo
 
         private void btnHat_Click(object sender, RoutedEventArgs e)
         {
