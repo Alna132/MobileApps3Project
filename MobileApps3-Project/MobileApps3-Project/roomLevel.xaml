@@ -12,15 +12,23 @@
             <Image Source="/Images/room.jpg" />
             <StackPanel Orientation="Vertical">
                 <!-- 7 items to find -->
-                <TextBlock Text="To find:" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Chess" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Bellows" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Fan" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Bone" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Spoon" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Tack" Foreground="White" TextAlignment="Center" />
-                <TextBlock Text="Lighter" Foreground="White" TextAlignment="Center" />
+                <TextBlock x:Name="txtList" Text="To find:" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtChess" Text="Chess" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtBellows" Text="Bellows" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtFan" Text="Fan" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtBone" Text="Bone" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtSpoon" Text="Spoon" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtTack" Text="Tack" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:Name="txtLighter" Text="Lighter" Foreground="White" TextAlignment="Center" Visibility="Visible" />
             </StackPanel>
         </StackPanel>
+
+        <Button x:Name="btnChess" Background="Azure" Margin="355,331,0,10" Height="19" Width="41" Click="btnChess_Click" Visibility="Visible" />
+        <Button x:Name="btnBellows" Background="White" Margin="151,58,0,228" Height="74" Width="26" Click="btnBellows_Click" Visibility="Visible" />
+        <Button x:Name="btnFan" Background="Azure" Margin="496,173,0,126" Height="61" Width="31" Click="btnFan_Click" Visibility="Visible" />
+        <Button x:Name="btnBone" Background="Azure" Margin="240,10,0,318" Height="32" Width="66" Click="btnBone_Click" Visibility="Visible" />
+        <Button x:Name="btnSpoon" Background="Azure" Margin="355,145,0,203" Width="41" Click="btnSpoon_Click" Visibility="Visible" />
+        <Button x:Name="btnTack" Background="Azure" Margin="478,58,0,290" Height="14" Click="btnTack_Click" Visibility="Visible" />
+        <Button x:Name="btnLighter" Background="Azure" Margin="478,331,0,0" Height="29" Width="49" Click="btnLighter_Click" Visibility="Visible" />
     </Grid>
 </Page>
