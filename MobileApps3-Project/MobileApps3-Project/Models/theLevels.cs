@@ -8,21 +8,24 @@ using Windows.Storage;
 
 namespace MobileApps3_Project.Models
 {
-    class theLevels
+    public class theLevels
     {
-        public List<Levels> Difficulty { get; set; }
+        public static List<Levels> Difficulty { get; set; }
         public static List<Levels> gLevelList = new List<Levels>();
         public String DifficultyName { get; set; }
 
         public theLevels()
         {
-            LoadData();
-            Difficulty = gLevelList;
+            //LoadData();
+            //Difficulty = gLevelList;
+            
+
         }//- End of theLevels()
 
-        public static async Task LoadData()
+        public static async Task<List<Levels>> LoadData()
         {
             await LoadLocalData();
+            return gLevelList;
         }//- End of LoadData
 
         public static async Task LoadLocalData()

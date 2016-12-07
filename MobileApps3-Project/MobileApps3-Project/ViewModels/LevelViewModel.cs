@@ -12,32 +12,32 @@ namespace MobileApps3_Project.ViewModels
         public LevelViewModel(Data.Levels difficulty = null) : base(difficulty) { }
         public String level
         {
-            get { return this.level; }
-            set { SetProperty(this.level, value, () => this.level = value); }
+            get { return This.level; }
+            set { SetProperty(This.level, value, () => This.level = value); }
         }// End of Level
 
         public int items
         {
-            get { return this.items; }
-            set { SetProperty(this.items, value, () => this.items = value); }
+            get { return This.items; }
+            set { SetProperty(This.items, value, () => This.items = value); }
         }// End of Items
 
         public String description
         {
-            get { return this.description; }
-            set { SetProperty(this.description, value, () => this.description = value); }
+            get { return This.description; }
+            set { SetProperty(This.description, value, () => This.description = value); }
         }// End of Description
 
         public String image
         {
-            get { return this.image; }
-            set { SetProperty(this.image, value, () => this.image = value); }
+            get { return This.image; }
+            set { SetProperty(This.image, value, () => This.image = value); }
         }// End of Image
 
         public String navString
         {
-            get { return this.navString; }
-            set { SetProperty(this.navString, value, () => this.navString = value); }
+            get { return This.navString; }
+            set { SetProperty(This.navString, value, () => This.navString = value); }
         }// End of Level
 
     }//- End of LevelViewModel

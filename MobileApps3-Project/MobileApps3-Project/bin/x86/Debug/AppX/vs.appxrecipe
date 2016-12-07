@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3bad68cf-6a5d-4639-bf18-a148626ae5e0</PackageIdentityName>
     <IntermediateOutputPath>G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>A71FBD4B165B3A44ABF70E779BD3675505AF8B0552425B773F527F9721AA993D</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>HiddenObjectChallenge_1.0.0.0_x86__4h3nec8t8eke0</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>HiddenObjectChallenge_4h3nec8t8eke0!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>HiddenObjectChallenge</RegisteredPackageID>
+    <RegisteredManifestChecksum>D03EA2AAA428E48F6D2516D5FB1F9FE7FF2227E3F8BFE6A208671C9797E66DC5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>45979CurranStudio.HiddenObjectsTheQuestforItems_1.1.0.0_x86__4h3nec8t8eke0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>45979CurranStudio.HiddenObjectsTheQuestforItems_4h3nec8t8eke0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>45979CurranStudio.HiddenObjectsTheQuestforItems</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=G00309741</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-04T17:23:48.587</Modified>
+      <Modified>2016-12-07T15:06:15.692</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\MobileApps3-Project.exe">
       <PackagePath>entrypoint\MobileApps3-Project.exe</PackagePath>
-      <Modified>2016-12-04T17:23:46.667</Modified>
+      <Modified>2016-12-07T15:05:57.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\windows 8\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -444,19 +444,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Data\Levels.txt">
       <PackagePath>Data\Levels.txt</PackagePath>
-      <Modified>2016-12-03T14:48:49.819</Modified>
+      <Modified>2016-12-07T11:36:26.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\chaos.jpg">
       <PackagePath>Images\chaos.jpg</PackagePath>
-      <Modified>2016-11-30T11:40:54.898</Modified>
+      <Modified>2016-12-07T14:57:21.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\grave.jpg">
       <PackagePath>Images\grave.jpg</PackagePath>
-      <Modified>2016-11-30T11:40:54.945</Modified>
+      <Modified>2016-12-07T15:00:01.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\room.jpg">
       <PackagePath>Images\room.jpg</PackagePath>
-      <Modified>2016-11-30T11:40:54.983</Modified>
+      <Modified>2016-12-07T15:01:45.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -464,41 +464,41 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-11-30T11:40:54.830</Modified>
+      <Modified>2016-12-04T20:43:50.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.832</Modified>
+      <Modified>2016-12-04T20:43:50.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.836</Modified>
+      <Modified>2016-12-04T20:43:51.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.839</Modified>
+      <Modified>2016-12-04T20:43:51.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.842</Modified>
+      <Modified>2016-12-04T20:43:51.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.844</Modified>
+      <Modified>2016-12-04T20:43:51.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-30T11:40:54.846</Modified>
+      <Modified>2016-12-04T20:43:51.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\MobileApps3-Project.xr.xml">
       <PackagePath>MobileApps3-Project.xr.xml</PackagePath>
-      <Modified>2016-12-04T16:36:49.561</Modified>
+      <Modified>2016-12-07T15:05:55.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -506,11 +506,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-04T17:23:48.199</Modified>
+      <Modified>2016-12-07T15:06:11.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\Core\MobileApps3-Project.exe">
       <PackagePath>MobileApps3-Project.exe</PackagePath>
-      <Modified>2016-12-04T17:23:48.571</Modified>
+      <Modified>2016-12-07T15:06:15.445</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

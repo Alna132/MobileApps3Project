@@ -9,16 +9,16 @@
 
     <Grid Background="Black">
 
-        <StackPanel Orientation="Horizontal">
-            <Image x:ConnectionId='6' x:Name="graveScene" Source="/Images/grave.jpg" />
+        <StackPanel Orientation="Horizontal" >
+            <Image Source="/Images/grave.jpg" />
             <StackPanel Orientation="Vertical">
                 <!-- 5 items to find -->
-                <TextBlock x:ConnectionId='7' x:Name="txtList" Text="To find:" Foreground="White" TextAlignment="Center" Visibility="Visible" />
-                <TextBlock x:ConnectionId='8' x:Name="txtHat" Text="Hat" Foreground="White" TextAlignment="Center" Visibility="Visible" />
-                <TextBlock x:ConnectionId='9' x:Name="txtTeddy" Text="Teddy" Foreground="White" TextAlignment="Center" Visibility="Visible" />
-                <TextBlock x:ConnectionId='10' x:Name="txtEggplant" Text="Eggplant" Foreground="White" TextAlignment="Center" Visibility="Visible" />
-                <TextBlock x:ConnectionId='11' x:Name="txtCherry" Text="Cherry" Foreground="White" TextAlignment="Center" Visibility="Visible" />
-                <TextBlock x:ConnectionId='12' x:Name="txtLamp" Text="Lamp" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='6' x:Name="txtList" Text="To find:" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='7' x:Name="txtHat" Text="Hat" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='8' x:Name="txtTeddy" Text="Teddy" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='9' x:Name="txtEggplant" Text="Eggplant" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='10' x:Name="txtCherry" Text="Cherry" Foreground="White" TextAlignment="Center" Visibility="Visible" />
+                <TextBlock x:ConnectionId='11' x:Name="txtLamp" Text="Lamp" Foreground="White" TextAlignment="Center" Visibility="Visible" />
             </StackPanel>
         </StackPanel>
         <Button x:ConnectionId='1' x:Name="btnHat" Background="Transparent" Margin="198,185,0,129" Height="46" Width="27"                      Visibility="Visible" />

@@ -9,8 +9,8 @@
 
     <Grid Background="Black">
 
-        <StackPanel Orientation="Horizontal">
-            <Image x:Name="graveScene" Source="/Images/grave.jpg" />
+        <StackPanel Orientation="Horizontal" >
+            <Image Source="/Images/grave.jpg" />
             <StackPanel Orientation="Vertical">
                 <!-- 5 items to find -->
                 <TextBlock x:Name="txtList" Text="To find:" Foreground="White" TextAlignment="Center" Visibility="Visible" />

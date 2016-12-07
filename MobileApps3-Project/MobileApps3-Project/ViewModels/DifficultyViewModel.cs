@@ -5,24 +5,40 @@ using System.Text;
 using System.Threading.Tasks;
 using MobileApps3_Project.Models;
 using System.Collections.ObjectModel;
+using MobileApps3_Project.Data;
 
 namespace MobileApps3_Project.ViewModels
 {
     public class DifficultyViewModel : NotificationBase
     {
         Models.theLevels Difficulty;
-
+        public List<Levels> mylist;
+        
         public DifficultyViewModel()
         {
-            Models.theLevels test = new Models.theLevels();
+            //Models.theLevels test = new Models.theLevels();
+            LoadData();
 
-            foreach (var level in test.Difficulty)
+            //foreach (var level in test.Difficulty)
+            //{
+            //    var np = new LevelViewModel(level);
+            //    _level.Add(np);
+            //}//- End of Foreach
+        }//- End of DifficultyViewModel
+
+        public async void LoadData()
+        {
+            //Models.theLevels test
+            //  = new Models.theLevels();
+
+            mylist = await theLevels.LoadData();
+
+            foreach (var level in theLevels.gLevelList)
             {
                 var np = new LevelViewModel(level);
                 _level.Add(np);
             }//- End of Foreach
-        }//- End of DifficultyViewModel
-
+        }//- End of LoadData
 
         ObservableCollection<LevelViewModel> _level = new ObservableCollection<LevelViewModel>();
 
