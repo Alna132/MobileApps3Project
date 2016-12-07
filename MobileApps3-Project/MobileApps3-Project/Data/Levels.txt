@@ -17,7 +17,7 @@
 	"items" : 10,
 	"description" : "A difficult level for players looking for a challenge.",
 	"image" : "/Images/chaos.jpg",
-	"navString" : "chaosLevel"},
+	"navString" : "chaosLevel"}
 ]
 
 
