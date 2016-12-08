@@ -22,13 +22,13 @@
     <AppXManifest Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-07T15:06:15.692</Modified>
+      <Modified>2016-12-07T17:20:28.377</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\MobileApps3-Project.exe">
       <PackagePath>entrypoint\MobileApps3-Project.exe</PackagePath>
-      <Modified>2016-12-07T15:05:57.678</Modified>
+      <Modified>2016-12-07T17:20:10.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\windows 8\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,15 +448,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\chaos.jpg">
       <PackagePath>Images\chaos.jpg</PackagePath>
-      <Modified>2016-12-07T14:57:21.166</Modified>
+      <Modified>2016-12-07T15:58:52.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\grave.jpg">
       <PackagePath>Images\grave.jpg</PackagePath>
-      <Modified>2016-12-07T15:00:01.645</Modified>
+      <Modified>2016-12-07T15:58:52.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Images\room.jpg">
       <PackagePath>Images\room.jpg</PackagePath>
-      <Modified>2016-12-07T15:01:45.025</Modified>
+      <Modified>2016-12-07T15:58:52.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -506,11 +506,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-07T15:06:11.715</Modified>
+      <Modified>2016-12-07T17:20:26.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\College\Year 4\Mobile App Dev 3\MobileApps3Project\MobileApps3-Project\MobileApps3-Project\bin\x86\Debug\Core\MobileApps3-Project.exe">
       <PackagePath>MobileApps3-Project.exe</PackagePath>
-      <Modified>2016-12-07T15:06:15.445</Modified>
+      <Modified>2016-12-07T17:20:28.355</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
